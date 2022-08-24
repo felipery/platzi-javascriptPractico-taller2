@@ -10,17 +10,17 @@
     <section>
       <h2>VALIDAR CUPON</h2>
       <form>
-        <img src="./img/tatuaje.PNG" alt="" />
+        <img src="./img/tatuaje.PNG" alt="Imagen Tatuaje Mariposa" />
         <br />
-        <label for="ValorTatuaje">Precio: 180</label>
+        <label for="InputPrice">Ingrese precio:</label>
+        <input id="InputPrice" type="number" />
         <br />
         <label for="InputCupon">Cupón de descuento:</label>
         <input id="InputCupon" type="text" />
-        <br />
         <button type="button" onclick="onclickValidarCupon()">
           Validar cupón
         </button>
-        <p id="ResultP"></p>
+        <p id="resultP"></p>
       </form>
     </section>
     <script src="cupones.js"></script>
